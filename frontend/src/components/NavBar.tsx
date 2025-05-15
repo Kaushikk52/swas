@@ -5,6 +5,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 
 // style impoerts
 import { buttonStyle } from "@/constants/StyleConstants";
+import Link from 'next/link'
 
 export default function NavBar() {
   return (
@@ -16,10 +17,10 @@ export default function NavBar() {
       {/* nav links */}
       <div className="flex items-center space-x-4">
         {navLinks.map((nav) => (
-          <h1 key={nav.name} className="flex items-center gap-2">
+          <Link href={nav.path} key={nav.name} className="flex items-center gap-2 font-archivo">
             {nav.name}{" "}
             <span>{nav.isDropDown && <IoMdArrowDropdown size={20} />}</span>
-          </h1>
+          </Link>
         ))}
       </div>
       {/* join btn */}

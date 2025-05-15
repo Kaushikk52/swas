@@ -11,13 +11,14 @@ export default function page() {
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-1">
               <ChevronLeft height={12} width={12} strokeWidth={3} />
-              <p className="text-sm font-base align-middle text-gray-700 uppercase">
+              <p className="text-sm font-archivo align-middle text-gray-700 uppercase">
                 Back to shop
               </p>
+              
             </div>
             <div className="relative">
                 <Image src={"/product/Tank-top.jpg"} height={800} width={550} alt="Product Image" />
-                <div className="absolute top-2 left-2 h-12 w-12 rounded-full px-1 py-3 text-center font-bold text-white bg-[#D45700]">Sale!</div>
+                <div className="absolute top-2 left-2 h-12 w-12 rounded-full px-1 py-3 text-center font-archivo tracking-wider font-semibold text-white bg-[#D45700]">Sale!</div>
             </div>
           </div>
 
