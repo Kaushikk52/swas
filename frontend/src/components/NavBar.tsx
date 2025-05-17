@@ -9,7 +9,7 @@ import Link from 'next/link'
 
 export default function NavBar() {
   return (
-    <div className="flex items-center justify-between bg-transparent px-5 py-4">
+    <div className="flex items-center justify-between bg-transparent px-5 py-4 w-full">
       {/* Logo */}
       <div>
         <Image src={"/logo.svg"} alt="logo" height={100} width={100} />

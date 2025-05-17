@@ -2,13 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternatesdisplay=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
 @import "tailwindcss";
 
 @theme{
   --font-cormorant-garamond: "Cormorant Garamond", serif;
   --font-montserrat-alternates: "Montserrat Alternates", serif;
   --font-open-sans: "Open Sans", serif;
-  --font-archivo: "Archivo", serif;
+  --font-archivo: "Archivo", Arial;
+  --font-gotu: "Gotu", serif;
 }
 
 @media screen and (max-width: 600px) {

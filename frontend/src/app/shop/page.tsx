@@ -5,7 +5,7 @@ import { ChevronLeft } from "lucide-react";
 
 export default function page() {
   return (
-    <div className="bg-[#FAF9F7] h-screen p-5">
+    <div className="h-screen p-5">
       <div className="mx-auto max-w-8xl bg-white px-7 py-6">
         <div>
           <div className="flex flex-col gap-4">
