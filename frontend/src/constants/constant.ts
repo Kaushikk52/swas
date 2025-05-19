@@ -5,5 +5,5 @@ export const navLinks = [
   { name: "Membership", path: "/", isDropDown: false },
   { name: "Training", path: "/", isDropDown: false },
   { name: "Blog", path: "/", isDropDown: false },
-  { name: "Shop", path: "/", isDropDown: false },
+  { name: "Shop", path: "/shop", isDropDown: false },
 ];
