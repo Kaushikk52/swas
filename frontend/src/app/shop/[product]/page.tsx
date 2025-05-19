@@ -38,7 +38,7 @@ export default function ProductPage() {
   const tags = ["accessories", "fitness", "gym"];
 
   return (
-    <div className="min-h-screen p-5 w-full">
+    <div className="min-h-screen p-5 w-full mt-18">
       <div className="mx-auto max-w-8xl bg-white px-7 py-6">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* left - image section */}
@@ -176,7 +176,7 @@ export default function ProductPage() {
                   </Button>
                   <Button
                     className={`${
-                      true ? buttonStyle : disabledButtonStyle
+                      false ? buttonStyle : disabledButtonStyle
                     } px-8 py-6  rounded-3xl`}
                   >
                     Add to Cart

@@ -21,16 +21,6 @@ export default function page() {
                 <div className="absolute top-2 left-2 h-12 w-12 rounded-full px-1 py-3 text-center font-archivo tracking-wider font-semibold text-white bg-[#D45700]">Sale!</div>
             </div>
           </div>
-
-          {/* right - info section */}
-          <div>
-            {/* title */}
-            <h2></h2>
-            {/* desc */}
-            <p></p>
-            {/* price */}
-            <p></p>
-          </div>
         </div>
       </div>
     </div>
