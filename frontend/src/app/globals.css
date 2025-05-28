@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternatesdisplay=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -11,6 +13,8 @@
   --font-open-sans: "Open Sans", serif;
   --font-archivo: "Archivo", Arial;
   --font-gotu: "Gotu", serif;
+  --font-league-script:"League Script",Arial;
+  --font-inter:"inter",Arial;
 }
 
 @media screen and (max-width: 600px) {

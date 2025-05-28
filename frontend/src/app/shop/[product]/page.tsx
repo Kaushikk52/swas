@@ -38,9 +38,9 @@ export default function ProductPage() {
   const tags = ["accessories", "fitness", "gym"];
 
   return (
-    <div className="min-h-screen p-5 w-full">
+    <div className="min-h-screen p-5 w-full mt-18">
       <div className="mx-auto max-w-8xl bg-white px-7 py-6">
-        <div className="flex flex-col lg:flex-row gap-8">
+        <div className="flex flex-col lg:flex-row gap-8 w-full xl:items-center xl:justify-center">
           {/* left - image section */}
           <div className="flex flex-col gap-5">
             <div className="flex items-center gap-1 cursor-pointer">

@@ -1,9 +1,20 @@
-export const navLinks = [
-  { name: "Start here", path: "/", isDropDown: true },
-  { name: "About", path: "/", isDropDown: true },
-  { name: "Classes", path: "/", isDropDown: true },
-  { name: "Membership", path: "/", isDropDown: false },
-  { name: "Training", path: "/", isDropDown: false },
-  { name: "Blog", path: "/", isDropDown: false },
-  { name: "Shop", path: "/shop", isDropDown: false },
+export const headerBarLinks = [
+  { name: "FAQs", path: "" },
+  { name: "Whishlist", path: "" },
+  { name: "Login", path: "" },
+  { name: "Cart", path: "" },
+];
+
+export const headerLinks = [
+  { name: "About us", path: "" },
+  { name: "Our products", path: "" },
+  { name: "Blogs", path: "" },
+  { name: "Contact us", path: "" },
+];
+
+export const categoriesData = [
+  { name: "Top Wear", img: "/category-1.jpg" },
+  { name: "Bottom Wear", img: "/category-2.jpg" },
+  { name: "Sport Bra", img: "/category-3.jpg" },
+  { name: "Top Wear", img: "/category-1.jpg" },
 ];
